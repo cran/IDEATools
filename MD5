@@ -1,6 +1,6 @@
-e53988d172aa8843913e15b5f8b20ecd *DESCRIPTION
+a037101be311454a000a9c0d77c8ed20 *DESCRIPTION
 56de1e58e5604b21235996828d3476de *NAMESPACE
-3a72b539d3277c6486c028d4a6ef1a60 *NEWS.md
+d149697c53d0963d7ff7378a4593f902 *NEWS.md
 b80a98f8aa4440f5e6baf7107932a033 *R/compute_idea.R
 bdf663acffb4a6e001d8e4e8dfc3592d *R/diag_idea.R
 2195c198952d5b46a1cffab24a8da841 *R/excel_reports.R
@@ -46,7 +46,7 @@ b72cc8cde28fb8cc912df5f690150c74 *inst/img/picto_production.png
 9b21c6f318b3e98776f86f548c7dfc90 *inst/img/picto_transmissibilite.png
 d1174f9d62ab6c45a7a982525a340a13 *inst/report/group/bandeau.png
 d7ba7ffa7066ef2cbd6627cd67ad145d *inst/report/group/docx_group_report.Rmd
-7e4dff4fc3bf83e6bc7595010ff0a10a *inst/report/group/pdf_group_report.Rmd
+aec06577eeb4487cac53919ca850c957 *inst/report/group/pdf_group_report.Rmd
 346dd264d70aac3a27392de6d9307411 *inst/report/group/pdf_group_report_ref.Rmd
 ddb680c5186b3d7e1b448c41d86113d6 *inst/report/group/pptx_group_report.Rmd
 09376415ad7b0ce94df39a69481bcd9b *inst/report/group/templates/IDEA_Horizontal.pdf

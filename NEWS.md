@@ -1,4 +1,7 @@
-# IDEATools 3.4.1
+# IDEATools 3.4.2
+* Fixed an error for group reports
+
+# IDEATools 3.4.1 (CRAN)
 * Fixed an error in the global tree
 * Re-styled some code using the tidyverse style
 * Fixed a error occuring when not choosing trees as plot choice
