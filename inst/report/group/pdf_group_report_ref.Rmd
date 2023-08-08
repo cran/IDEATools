@@ -84,7 +84,7 @@ unique_atelier<- data.frame(MTD = unique(metadata$MTD_12)) |> transform(MTD = if
 unique_elevage <- data.table(MTD = metadata$MTD_14)[, MTD := data.table::fcase(
   MTD == 0, "Pas d'élevage",
   MTD == 1, "Monogastrique",
-  TRUE, "Herbivore"
+  MTD == 2, "Herbivore"
 )][, .(MTD)][, unique(MTD)]
 
 possible_age <- data.table(
@@ -116,7 +116,7 @@ metadata_selected[, MTD_12 := ifelse(MTD_12 == "1", yes = "oui", no = "non")]
 metadata_selected[, MTD_14 := data.table::fcase(
   MTD_14 == 0, "Pas d'élevage",
   MTD_14 == 1, "Monogastrique",
-  TRUE, "Herbivore"
+  MTD_14 == 2, "Herbivore"
 )]
 
 reference_list <- IDEATools:::reference_list
@@ -187,7 +187,7 @@ ggplot2::ggplot(IDEAdata$freq_plot$data,ggplot2::aes(x = node_name, y = prop, fi
       ggplot2::geom_col(position = "stack", color ="black") +
       ggplot2::geom_label(ggplot2::aes(label = paste0(round(prop),"%")),position = ggplot2::position_stack(vjust = 0.5),size = 17) +
       ggplot2::scale_fill_identity("\uc9valuation", guide = ggplot2::guide_legend(reverse = TRUE), labels = c("Très défavorable","Défavorable","Favorable","Très favorable")) +
-      theme_idea() +
+      IDEATools:::theme_idea() +
       ggplot2::coord_flip() +
       ggplot2::theme(axis.text = ggplot2::element_text(size = 45),axis.title = ggplot2::element_text(size = 45), legend.text = ggplot2::element_text(size = 45), legend.title = ggplot2::element_text(size = 50)) +
       ggplot2::labs(x = "", y = "Fr\u00e9quence (%)") +
