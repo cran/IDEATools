@@ -1,6 +1,6 @@
-6456a0659db29789610abad5b652b4a2 *DESCRIPTION
+126996e4133f16e73f1f0dd68a19b20f *DESCRIPTION
 56de1e58e5604b21235996828d3476de *NAMESPACE
-cf845360d2881e595d0533d9fb7bcf5b *NEWS.md
+02f184924cdcbec04004972f7acd132a *NEWS.md
 b80a98f8aa4440f5e6baf7107932a033 *R/compute_idea.R
 bdf663acffb4a6e001d8e4e8dfc3592d *R/diag_idea.R
 139eef3c3faff4e0dd387d0f99514cc5 *R/excel_reports.R
@@ -12,7 +12,7 @@ dee7c6f2030d19be87c5829af42946c4 *R/read_idea.R
 f809d030567ac990f88b65b47a0489f5 *R/sysdata.rda
 9f47c74635591da37f408b452918919e *R/themes.R
 af33db8f3812ad2bed4dccfa189cd560 *R/utils.R
-3ddd7d6e0f89d6b491bc8ee8a05978a5 *R/write_idea.R
+5b6d9c55da0cda9aabc2877f7c4d554e *R/write_idea.R
 d26b3244245581d83490af72e1930e3a *R/zzz.R
 b12005d12435d5d7929471cc47d532c5 *build/vignette.rds
 b68ba90116bfd9efba7e00733bb1c2ce *inst/ShinyApp/app.R
@@ -79,7 +79,7 @@ e11d73b74f7e0e5a8e3790b38c0b61f3 *inst/report/single/templates/page_de_garde.tex
 d049c0e888e359ebf139b0db931ff808 *man/compute_idea.Rd
 98cb3b70e2822ee5ad601c70131b5f7a *man/diag_idea.Rd
 00e624980300b1dd68455369c8a3943e *man/figures/cap_app.png
-9d443f0b4963e4430cabbe845b6214e6 *man/figures/logo.png
+f1ade75fd8391dc21d904b7b006e3295 *man/figures/logo.png
 54b107ce0eea8b4c24b6ea0795b4b60f *man/jsonify2.Rd
 106593ef6947db66bbbe2f68dfc50248 *man/old_idea.Rd
 d465187331f42a7d905fe0e631f0e0b9 *man/plot_idea.Rd
